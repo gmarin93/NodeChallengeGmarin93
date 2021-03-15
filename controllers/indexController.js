@@ -19,6 +19,7 @@ const MulterConfig = {
   })),
 };
 
+
 //Upload CSV files to DB
 const upload = multer(MulterConfig).single("file");
 
