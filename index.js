@@ -20,7 +20,6 @@ app.use(express.json());
 //App routes
 app.use(`/api/index`,require(`./routes/index`));
 
-
 //Run app
 app.listen(port,'0.0.0.0',()=>{
     console.log('Server running in port: '+port);
